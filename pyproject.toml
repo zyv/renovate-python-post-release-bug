@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "renovate_python_post_release"
+version = "0.1.0"
+description = "Reproducer for Renovate mishandling of Python post-release versions"
+authors = ["Yury V. Zaytsev <yury@shurup.com>"]
+license = "MIT"
+package-mode = false
+
+[tool.poetry.dependencies]
+python-dateutil = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
